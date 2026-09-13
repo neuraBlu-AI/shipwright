@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/plane-api/:path*",
+      "destination": "https://api.plane.so/api/v1/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
